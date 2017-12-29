@@ -7,7 +7,7 @@ Original comp
 ![original comp design](https://i.imgur.com/8eQr70q.png)
 
 My Comp
-![my comp design]()
+![my comp design](./public/final-comp.png)
 
 ### Static Comp Learning Goals
 - Begin to understand rendering in React
