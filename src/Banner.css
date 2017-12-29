@@ -33,3 +33,33 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 1080px) {
+  .Banner {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .Banner {
+    width: 90%;
+    margin: 0 auto 30px auto;
+  }
+
+  .Banner h2 {
+    font-size: 26px;
+  }
+
+  .Banner p {
+    font-size: 16px;
+  }
+  
+  .banner-left {
+    width: 100%;
+  }
+
+  .banner-right {
+    display: none;
+  }
+}
+

@@ -20,3 +20,28 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1080px) {
+  .Stories {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .Stories {
+    width: 90%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .Stories {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .Stories {
+    width: 90%;
+  }
+}

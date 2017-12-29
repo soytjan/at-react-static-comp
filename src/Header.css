@@ -24,3 +24,15 @@ h1 {
   font-weight: bolder;
   margin: 0;
 }
+
+@media screen and (max-width: 615px) {
+  a {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Header a {
+    display: none;
+  }
+}
