@@ -12,8 +12,6 @@ const Stories = (props) => {
       <div className='stories-grid'>
         {
           props.stories.map( (story, index) => {
-            // INSTEAD OF returning the div below, return a Story component
-            // Be sure to pass down the correct props!
             return <Story img={story.img} title={story.title} desc={story.desc} authImg={story.authImg} authName={story.authName} estTime={story.estTime} />
           })
         }
@@ -24,8 +22,3 @@ const Stories = (props) => {
 
 export default Stories;
 
- {
-          props.days.map( (day) => {
-            return <Card weekday={day.conditions} month={day.date.monthname} day={day.date.day} weather={day.conditions} high={day.high.fahrenheit} low={day.low.fahrenheit} />
-          });
-        }
